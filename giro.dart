@@ -1,3 +1,7 @@
+import 'package:pylons_sdk/src/features/validations/validate_recipe.dart';
+import 'package:pylons_sdk/src/generated/cosmos/base/v1beta1/coin.pb.dart';
+void main() {
+  test('should throw error on empty cookbook name ', () 
 var MOCK_RECIPE = Recipe(
     cookbookId: MOCK_COOKBOOK_ID,
     id: MOCK_RECIPE_ID,
